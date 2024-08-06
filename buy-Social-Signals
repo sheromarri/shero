@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy and Sale</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="https://www.sharescounter.com/">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="privacy-policy.html">Privacy</a>
+        <a href="buy-Social-Signals">buy Social Signals</a>
+    </div>
+
+    <div class="content">
+        <h1>buy Social Signals</h1>
+        <p>Welcome to the Buy and Sale section. Here you can find items for sale or list your own items.</p>
+        <!-- Add more content as needed -->
+    </div>
+</body>
+</html>
