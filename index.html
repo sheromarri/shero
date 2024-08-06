@@ -1,15 +1,10 @@
-To update the design of your existing script without changing its functionality, we can enhance the CSS styles. Here's the updated version with a fresh theme and modern design:
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<!DOCTYPE html><html lang="en"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Social Signals checker for Facebook Pinterest Reddit Tumblr Xing vk and Getpocket Any Website, Blog Post, Youtube Video, App etc">
 <meta name="keywords" content="social signals checker, social shares checker, check social signals,social signals tracker, Facebook, Pinterest, Xing, reddit, tumblr, Signals checker, count ">
 <meta name="maValidation" content="963a61dfd0ebc2796d7b5856233d55b9" />
-<link rel="canonical" href="https://www.signalcount.com/" />
+  <link rel="canonical" href="https://www.signalcount.com/" />
 <meta property="og:type" content="website" />
 <meta property="og:image" content="https://www.signalcount.com/Social-Signals-cheker-tool.png" class="img-responsive" />
 <link rel="icon" href="logo%20Signalcount.jpg" type="image/jpg" sizes="32x32">
@@ -19,214 +14,100 @@ To update the design of your existing script without changing its functionality,
 <meta property="og:title" content="Social Signals Checker" />
 <meta property="og:url" content="https://www.signalcount.com/" />
 <style>
-/* Base reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: 0;
-}
-
-/* Body styling */
-body {
-    background-color: #f0f2f5;
-    font-family: 'Segoe UI', Verdana, sans-serif;
-    color: #333;
-}
-
-/* Navbar styling */
-.navbar {
-    background-color: #007bff;
-    padding: 1rem;
-    text-align: center;
-}
-
-.navbar a {
-    color: #fff;
-    margin: 0 1rem;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-}
-
-/* Main content styling */
-.main-content {
-    max-width: 1200px;
-    margin: 2rem auto;
-    padding: 1rem;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.form-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 2rem;
-}
-
-.form-container input {
-    width: 70%;
-    padding: 0.5rem;
-    border-radius: 25px;
-    border: 1px solid #ddd;
-    margin-right: 0.5rem;
-}
-
-.form-container button {
-    padding: 0.5rem 1rem;
-    border-radius: 25px;
-    border: none;
-    background-color: #28a745;
-    color: #fff;
-    cursor: pointer;
-}
-
-.form-container button:hover {
-    background-color: #218838;
-}
-
-/* Signals section styling */
-.signals {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 1rem;
-    text-align: center;
-}
-
-.signal {
-    background-color: #007bff;
-    color: #fff;
-    padding: 1rem;
-    border-radius: 8px;
-    transition: background-color 0.3s;
-}
-
-.signal:hover {
-    background-color: #0056b3;
-}
-
-.signal-title {
-    margin-bottom: 0.5rem;
-}
-
-.signal-count {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-/* Info section styling */
-.info-section {
-    margin-top: 2rem;
-    padding: 1rem;
-    background-color: #e9ecef;
-    border-radius: 8px;
-}
-
-.info-section h2 {
-    color: #007bff;
-    margin-bottom: 1rem;
-}
-
-.info-section p {
-    margin-bottom: 1rem;
-}
-
-/* Footer styling */
-.footer {
-    margin-top: 2rem;
-    padding: 1rem;
-    background-color: #007bff;
-    color: #fff;
-    text-align: center;
-    border-radius: 8px;
-}
+  * { margin: 0; padding: 0; box-sizing: border-box; font-weight: 700; border: 0; }
+  body { background-color: #b0e0e6; margin: 0; padding: 0; font-family: "Segoe UI", Verdana, sans-serif; font-style: italic; }
+  a { text-decoration: none; }
+  .navbar { background-color: #17a2b8; margin: auto; text-align: center; padding: 1rem 0; }
+  .navbar a { font-size: 4vw; text-align: center; margin: 0 2vw; color: #fff; }
+  .container { width: 90%; margin: auto; padding: 2rem 0; }
+  .fullsignal { width: 100%; margin: auto; background-color: #77afa6; text-align: center; padding: 1rem 0; border-radius: 15px; }
+  .formm { display: grid; grid-template-columns: 85% 15%; margin-bottom: 1rem; }
+  .btn { font-size: calc(1.4vw + 1.4vh); background-color: #007bff; border-radius: 20%; color: #fff; cursor: pointer; padding: 0.5vh; }
+  .htag { color: #fff; word-wrap: break-word; font-size: 2.5vw; font-style: normal; font-weight: 500; }
+  .main { font-size: calc(1.6vw + 1.6vh); display: grid; grid-template-columns: 1fr 1fr 1fr; font-weight: 700; grid-gap: 1rem; }
+  .fbc { background-color: #FF5733; } /* Updated Facebook color */
+  .ptc { background-color: #33FF57; } /* Updated Pinterest color */
+  .tbc { background-color: #3357FF; } /* Updated Tumblr color */
+  .rdc { background-color: #FF33A1; } /* Updated Reddit color */
+  .xgc { background-color: #33FFF4; } /* Updated Xing color */
+  .vkc { background-color: #FFB833; } /* Updated VK color */
+  .bfc { background-color: #8E33FF; } /* Updated Buffer color */
+  .gpc { background-color: #FF3380; } /* Updated Getpocket color */
+  .ftc { background-color: #808080; } /* Updated Totals Signal color */
+  .main p { color: #fff; border-radius: 10px; border: 2px solid #ff0; padding: 0.5rem 0; }
+  .counter { font-size: calc(1.4vw + 1.4vh); font-weight: 700; color: #00f; }
+  @media only screen and (max-width: 600px) {
+    .formm { display: grid; grid-template-columns: 78% 22%; }
+  }
+  @media only screen and (max-width: 400px) {
+    .main { display: grid; grid-template-columns: 1fr; }
+  }
+  .dds { width: 33%; margin: auto; text-align: center; }
+  #fftc { color: red; }
+  .form1 { border-radius: 25%; }
+  input { border-radius: 25%; }
+  #foo { width: 100%; visibility: hidden; }
+  .btc { width: 33%; margin: auto; text-align: center; }
+  .btn, .main p { animation: poss 2s 1; }
+  @keyframes poss {
+    0% { border-radius: 50%; transform: rotate(30deg); }
+    10% { border-radius: 50%; transform: rotate(90deg); }
+    40% { border-radius: 50%; transform: rotate(120deg); }
+    60% { border-radius: 50%; }
+    80% { border-radius: 50%; transform: rotate(-90deg); }
+    80% { border-radius: 50%; transform: rotate(-120deg); }
+    100% { border-radius: 90%; }
+  }
+  .qa { width: 80%; margin: auto; text-align: center; }
+  .qa p { margin: 15px; font-size: x-large; }
+  h2, .q { color: #ef4056; }
+  .ads { width: 80%; margin: auto; text-align: center; }
 </style>
-</head>
-<body>
-<div class="navbar">
-    <a href="https://www.signalcount.com/">Home</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-    <a href="privacy-policy.html">Privacy</a>
+  </head><body>
+<div class="navbar"><a href="https://www.signalcount.com/">Home</a><a href="about.html">About</a><a  href="contact.html">Contact</a><a href="privacy-policy.html">Privacy</a></div>
+
+    <div id="khaup">
+
+<div class="fullsignal"><br>
+<form class="formm" method=get >
+<input aria-label="URL for signals" type="url" id="urlInput"   class="form1" name="url" placeholder="Enter your url and click to check" value="" required>
+<button class="btn" id="getJSON" type="submit">CHECK</button></form>
+<h2 class='htag' id="htag">Add url for check Social Signals</h2>
+<div class="main">
+<div><p class="fbc">Facebook</p><div class="counter" id="fbcount">0</div></div>
+<div><p class="tbc">Tumblr</p><div class="counter" id="tbcount">0</div></div>
+<div><p class="ptc">Pinterest</p><div class="counter" id="ptcount">0</div></div>
+<div><p class="rdc">Reddit</p><div class="counter" id="rdcount">0</div></div>
+<div><p class="xgc">Xing</p><div class="counter" id="xgcount">0</div> </div>
+<div><p class="vkc">VK</p><div class="counter" id="vkcount">0</div></div>
+<div><p class="bfc">Buffer</p><div class="counter" id="bfcount">0</div></div>
+<div><p class="gpc">Getpocket</p><div class="counter" id="gpcount">0</div></div>
+<div><p class="ftc" id="fftc" >Totals Signal</p><div class="counter" id="tscount">0</div></div>
+</div></div></div>
+
+<div class="dds"><button class="btn" id="foo">Download Screenshot</button></div>
+
+<div class="qa">
+    <h1>Social Signals Checker</h1>
+   <h2>Q: How to use it?</h2>
+   <p>A: To use a social signals checker tool, you will need to provide the URL of the webpage or website for which you want to check the social signals. The tool will then analyze the page and provide information on the number of social media shares, likes, and links for that page from various social media platforms such as Facebook, Pinterest, Tumblr, and many more. Some tools may also provide information on the number of backlinks from other websites.</p>
+
+<h2>Q: Why use it?</h2>
+<p>A: A social signals checker is a valuable tool for businesses and individuals looking to check their online presence. Social signals refer to the activity and engagement on your social media accounts, such as likes, shares, and comments. These signals are important because they indicate to search engines that your content is valuable and relevant, which can help increase your visibility and search engine rankings.</p>
+
+<h2>Q: Why do we not show a social signal count for Twitter?</h2>
+<p>A: We do not go directly to any social media website to check post shares, likes, and comments. We use only API to check but Twitter does not provide an official API to check websites tweeted.</p>
+
+<p class="q">Q: How does the tool work?</p>
+<p>A: The tool uses APIs provided by social media platforms to gather data on the number of shares, likes, and links for a specific URL or webpage. The data is then analyzed and presented in a user-friendly format.</p>
+
+<p class="q">Q: How often is the data on the tool updated?</p>
+<p>A: The frequency of data updates can vary depending on the specific Site. Some tools may update the data in real time, while others may update the data on an hourly or daily basis.</p>
+
+<p class="q">Q: Are there any limitations to the tool's capabilities?</p>
+<p>A: Reddit Signals count limit per URL max 25.</p>
 </div>
-
-<div class="main-content">
-    <div class="form-container">
-        <input aria-label="URL for signals" type="url" id="urlInput" name="url" placeholder="Enter your URL and click to check" required>
-        <button id="getJSON" type="submit">CHECK</button>
-    </div>
-    <h2 class="htag" id="htag">Add URL to check Social Signals</h2>
-
-    <div class="signals">
-        <div class="signal">
-            <p class="signal-title">Facebook</p>
-            <div class="signal-count" id="fbcount">0</div>
-        </div>
-        <div class="signal">
-            <p class="signal-title">Tumblr</p>
-            <div class="signal-count" id="tbcount">0</div>
-        </div>
-        <div class="signal">
-            <p class="signal-title">Pinterest</p>
-            <div class="signal-count" id="ptcount">0</div>
-        </div>
-        <div class="signal">
-            <p class="signal-title">Reddit</p>
-            <div class="signal-count" id="rdcount">0</div>
-        </div>
-        <div class="signal">
-            <p class="signal-title">Xing</p>
-            <div class="signal-count" id="xgcount">0</div>
-        </div>
-        <div class="signal">
-            <p class="signal-title">VK</p>
-            <div class="signal-count" id="vkcount">0</div>
-        </div>
-        <div class="signal">
-            <p class="signal-title">Buffer</p>
-            <div class="signal-count" id="bfcount">0</div>
-        </div>
-        <div class="signal">
-            <p class="signal-title">Getpocket</p>
-            <div class="signal-count" id="gpcount">0</div>
-        </div>
-        <div class="signal">
-            <p class="signal-title">Total Signal</p>
-            <div class="signal-count" id="tscount">0</div>
-        </div>
-    </div>
-
-    <div class="info-section">
-        <h1>Social Signals Checker</h1>
-        <h2>Q: How to use it?</h2>
-        <p>A: To use a social signals checker tool, you will need to provide the URL of the webpage or website for which you want to check the social signals. The tool will then analyze the page and provide information on the number of social media shares, likes, and links for that page from various social media platforms such as Facebook, Pinterest, Tumblr, and many more. Some tools may also provide information on the number of backlinks from other websites.</p>
-
-        <h2>Q: Why use it?</h2>
-        <p>A: A social signals checker is a valuable tool for businesses and individuals looking to check their online presence. Social signals refer to the activity and engagement on your social media accounts, such as likes, shares, and comments. These signals are important because they indicate to search engines that your content is valuable and relevant, which can help increase your visibility and search engine rankings.</p>
-
-        <h2>Q: Why do we not show a social signal count for Twitter?</h2>
-        <p>A: We do not go directly to any social media website to check post shares, likes, and comments. We use only API to check but Twitter does not provide an official API to check websites tweeted.</p>
-
-        <p class="q">Q: How does the tool work?</p>
-        <p>A: The tool uses APIs provided by social media platforms to gather data on the number of shares, likes, and links for a specific URL or webpage. The data is then analyzed and presented in a user-friendly format.</p>
-
-        <p class="q">Q: How often is the data on the tool updated?</p>
-        <p>A: The frequency of data updates can vary depending on the specific Site. Some tools may update the data in real time, while others may update the data on an hourly or daily basis.</p>
-
-        <p class="q">Q: Are there any limitations to the tool's capabilities?</p>
-        <p>A: Reddit Signals count limit per URL max 25.</p>
-    </div>
-</div>
-
-<div class="footer">
-    <button id="foo">Download Screenshot</button>
-</div>
-
 <script>
-async function baba() {
-    var t = new URL(window.location.href),
-        e = t.searchParams.getAll("url");
-    if (s = (e + " ").replace(/\s/g, ""),
-        u = encodeURIComponent(s),
-        y = "https
+async function baba(){var t=new URL(window.location.href),e=t.searchParams.getAll("url");if(s=(e+" ").replace(/\s/g,""),u=encodeURIComponent(s),y="https://thingproxy.freeboard.io/fetch/","https://www.signalcount.com/"==t);else{var n=document.createElement("script");n.src="imga.js",document.getElementById("foo").style.visibility="visible",document.getElementsByTagName("head")[0].appendChild(n),document.getElementById("htag").innerHTML=e,async function(){const t=await fetch(`https://graph.facebook.com/?id=${u}&fields=engagement&access_token=2661727187485672|b7f39f60b47db5e40e20fc024831009b`),e=await t.json();fdp=e.engagement.reaction_count+e.engagement.comment_count+e.engagement.share_count+e.engagement.comment_plugin_count,document.getElementById("fbcount").innerHTML=fdp}(),async function(){const t=await fetch(`https://api.tumblr.com/v2/share/stats?url=${u}`),e=await t.json();document.getElementById("tbcount").innerHTML=e.response.note_count}(),async function(){const t=await fetch(`https://api.pinterest.com/v1/urls/count.json?url=${u}`),e=await t.text(),n=await e.split(":")[3].split("}");document.getElementById("ptcount").innerHTML=n[0]}(),async function(){const t=await fetch(`https://www.reddit.com/api/info.json?limit=100&url=${u}`),e=await t.json();document.getElementById("rdcount").innerHTML=e.data.dist}(),async function(){const t=await fetch(`https://api.signalcount.com/signal2.php?url=${u}`),e=await t.text(),n=await e.split(",")[1].split(")");document.getElementById("vkcount").innerHTML=n[0]}(),async function(){const t=await fetch(`https://www.partap.tk/signalcount4.php?url=${u}`),e=await t.json();document.getElementById("bfcount").innerHTML=e.shares}(),async function(){const t=await fetch(`https://www.partap.tk/signalcount2.php?url=${u}`),e=await t.json();document.getElementById("gpcount").innerHTML=e.saves}(),async function(){const t=await fetch(`https://api.signalcount.com/signal.php?url=${u}`),e=await t.json();document.getElementById("xgcount").innerHTML=e.share_counter}();var o=setInterval(function(){var t=document.getElementById("fbcount").innerHTML,e=document.getElementById("tbcount").innerHTML,n=document.getElementById("ptcount").innerHTML,a=document.getElementById("rdcount").innerHTML,c=document.getElementById("vkcount").innerHTML,s=document.getElementById("bfcount").innerHTML,i=document.getElementById("gpcount").innerHTML,u=document.getElementById("xgcount").innerHTML,m=(t=parseFloat(t))+(e=parseFloat(e))+(n=parseFloat(n))+(a=parseFloat(a))+(c=parseFloat(c))+(s=parseFloat(s))+(u=parseFloat(u))+(i=parseFloat(i));document.getElementById("tscount").innerHTML=m,bbl++,7<bbl&&clearInterval(o)},2e3);bbl=1}}baba();var node=document.getElementById("khaup"),btn=document.getElementById("foo");btn.onclick=function(){document.getElementById("foo").style.visibility="hidden",domtoimage.toBlob(document.getElementById("khaup")).then(function(t){window.saveAs(t,"Signalcount.png")})};
+</script>
+</body></html>
