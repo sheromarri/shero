@@ -1,4 +1,4 @@
-Here's the modified script with updated colors for each section:
+Here's the modified script with updated colors and some design changes:
 
 ```html
 <!DOCTYPE html>
@@ -6,8 +6,8 @@ Here's the modified script with updated colors for each section:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Social Signals checker for Facebook Pinterest Reddit Tumblr Xing vk and Getpocket Any Website, Blog Post, Youtube Video, App etc">
-<meta name="keywords" content="social signals checker, social shares checker, check social signals,social signals tracker, Facebook, Pinterest, Xing, reddit, tumblr, Signals checker, count ">
+<meta name="description" content="Social Signals checker for Facebook Pinterest Reddit Tumblr Xing VK and Getpocket Any Website, Blog Post, Youtube Video, App etc">
+<meta name="keywords" content="social signals checker, social shares checker, check social signals, social signals tracker, Facebook, Pinterest, Xing, Reddit, Tumblr, Signals checker, count ">
 <meta name="maValidation" content="963a61dfd0ebc2796d7b5856233d55b9" />
 <link rel="canonical" href="https://www.signalcount.com/" />
 <meta property="og:type" content="website" />
@@ -15,33 +15,31 @@ Here's the modified script with updated colors for each section:
 <link rel="icon" href="logo%20Signalcount.jpg" type="image/jpg" sizes="32x32">
 <title>Social Signals Checker Tool Facebook Reddit Tumblr Pinterest</title>
 <meta name="author" content="https://www.signalcount.com/">
-<meta property="og:description" content="Social Signals checker for Facebook Pinterest Reddit Tumblr Xing vk and Getpocket Any Website, Blog Post, Youtube Video, App etc" />
+<meta property="og:description" content="Social Signals checker for Facebook Pinterest Reddit Tumblr Xing VK and Getpocket Any Website, Blog Post, Youtube Video, App etc" />
 <meta property="og:title" content="Social Signals Checker" />
 <meta property="og:url" content="https://www.signalcount.com/" />
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; font-weight: 700; border: 0; }
   body { background-color: #b0e0e6; margin: 0; padding: 0; font-family: "Segoe UI", Verdana, sans-serif; font-style: italic; }
   a { text-decoration: none; }
-  .navbar { background-color: #17a2b8; margin: auto; text-align: center; }
-  .navbar a { font-size: 4vw; text-align: center; margin-left: 2vw; color: #fff; }
-  .haalni { background-color: #fff; width: 30%; margin: auto; }
-  .aa { background-color: #00f; border: 4px solid #fff; margin: auto; padding: 5px; }
-  .signal { border-radius: 20%; background-color: #ef4056; color: #fff; border: 3px solid #ff0; text-align: center; margin: auto; font-size: 3vw; }
-  .fullsignal { width: 72%; margin: auto; background-color: #77afa6; text-align: center; }
-  .formm { display: grid; grid-template-columns: 85% 15%; }
+  .navbar { background-color: #17a2b8; margin: auto; text-align: center; padding: 1rem 0; }
+  .navbar a { font-size: 4vw; text-align: center; margin: 0 2vw; color: #fff; }
+  .container { width: 90%; margin: auto; padding: 2rem 0; }
+  .fullsignal { width: 100%; margin: auto; background-color: #77afa6; text-align: center; padding: 1rem 0; border-radius: 15px; }
+  .formm { display: grid; grid-template-columns: 85% 15%; margin-bottom: 1rem; }
   .btn { font-size: calc(1.4vw + 1.4vh); background-color: #007bff; border-radius: 20%; color: #fff; cursor: pointer; padding: 0.5vh; }
   .htag { color: #fff; word-wrap: break-word; font-size: 2.5vw; font-style: normal; font-weight: 500; }
-  .main { font-size: calc(1.6vw + 1.6vh); display: grid; grid-template-columns: 1fr 1fr 1fr; font-weight: 700; grid-gap: 0 1.5rem; }
-  .fbc { background-color: #FF9900; } /* Updated Facebook blue */
-  .ptc { background-color: #6599FF; } /* Updated Pinterest red */
-  .tbc { background-color: #35465c; } /* Updated Tumblr blue */
-  .rdc { background-color: #ff4500; } /* Updated Reddit orange */
-  .xgc { background-color: #126567; } /* Updated Xing green */
-  .vkc { background-color: #4c75a3; } /* Updated VK blue */
-  .bfc { background-color: #168eea; } /* Updated Buffer blue */
-  .gpc { background-color: #ee4056; } /* Updated Getpocket red */
-  .ftc { background-color: #808080; } /* Updated Totals Signal grey */
-  .main p { color: #fff; border-radius: 25%; border: 2px solid #ff0; }
+  .main { font-size: calc(1.6vw + 1.6vh); display: grid; grid-template-columns: 1fr 1fr 1fr; font-weight: 700; grid-gap: 1rem; }
+  .fbc { background-color: #FF5733; } /* Updated Facebook color */
+  .ptc { background-color: #33FF57; } /* Updated Pinterest color */
+  .tbc { background-color: #3357FF; } /* Updated Tumblr color */
+  .rdc { background-color: #FF33A1; } /* Updated Reddit color */
+  .xgc { background-color: #33FFF4; } /* Updated Xing color */
+  .vkc { background-color: #FFB833; } /* Updated VK color */
+  .bfc { background-color: #8E33FF; } /* Updated Buffer color */
+  .gpc { background-color: #FF3380; } /* Updated Getpocket color */
+  .ftc { background-color: #808080; } /* Updated Totals Signal color */
+  .main p { color: #fff; border-radius: 10px; border: 2px solid #ff0; padding: 0.5rem 0; }
   .counter { font-size: calc(1.4vw + 1.4vh); font-weight: 700; color: #00f; }
   @media only screen and (max-width: 600px) {
     .formm { display: grid; grid-template-columns: 78% 22%; }
@@ -65,7 +63,7 @@ Here's the modified script with updated colors for each section:
     80% { border-radius: 50%; transform: rotate(-120deg); }
     100% { border-radius: 90%; }
   }
-  .qa { width: 50%; margin: auto; text-align: center; }
+  .qa { width: 80%; margin: auto; text-align: center; }
   .qa p { margin: 15px; font-size: x-large; }
   h2, .q { color: #ef4056; }
   .ads { width: 80%; margin: auto; text-align: center; }
@@ -79,13 +77,13 @@ Here's the modified script with updated colors for each section:
   <a href="privacy-policy.html">Privacy</a>
 </div>
 
-<div id="khaup">
-  <div class="fullsignal"><br>
+<div class="container">
+  <div class="fullsignal">
     <form class="formm" method="get">
       <input aria-label="URL for signals" type="url" id="urlInput" class="form1" name="url" placeholder="Enter your url and click to check" value="" required>
       <button class="btn" id="getJSON" type="submit">CHECK</button>
     </form>
-    <h2 class='htag' id="htag">Add url for check Social Signals</h2>
+    <h2 class='htag' id="htag">Add URL to check Social Signals</h2>
     <div class="main">
       <div><p class="fbc">Facebook</p><div class="counter" id="fbcount">0</div></div>
       <div><p class="tbc">Tumblr</p><div class="counter" id="tbcount">0</div></div>
@@ -95,7 +93,7 @@ Here's the modified script with updated colors for each section:
       <div><p class="vkc">VK</p><div class="counter" id="vkcount">0</div></div>
       <div><p class="bfc">Buffer</p><div class="counter" id="bfcount">0</div></div>
       <div><p class="gpc">Getpocket</p><div class="counter" id="gpcount">0</div></div>
-      <div><p class="ftc" id="fftc">Totals Signal</p><div class="counter" id="tscount">0</div></div>
+      <div><p class="ftc" id="fftc">Total Signals</p><div class="counter" id="tscount">0</div></div>
     </div>
   </div>
 </div>
@@ -110,4 +108,6 @@ Here's the modified script with updated colors for each section:
   <p>A: To use a social signals checker tool, you will need to provide the URL of the webpage or website for which you want to check the social signals. The tool will then analyze the page and provide information on the number of social media shares, likes, and links for that page from various social media platforms such as Facebook, Pinterest, Tumblr, and many more. Some tools may also provide information on the number of backlinks from other websites.</p>
 
   <h2>Q: Why use it?</h2>
-  <p>A: A social signals checker is a valuable tool for businesses and individuals looking to check their online presence. Social signals refer to the activity and engagement on your social media accounts
+  <p>A: A social signals checker is a valuable tool for businesses and individuals looking to check their online presence. Social signals refer to the activity and engagement on your social media accounts, such as likes, shares, and comments. These signals are important because they indicate to search engines that your content is valuable and relevant, which can help increase your visibility and search engine rankings.</p>
+
+  <h
